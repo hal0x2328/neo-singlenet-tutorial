@@ -1,0 +1,48 @@
+{
+  "name": null,
+  "version": "1.0",
+  "scrypt": {
+    "n": 16384,
+    "r": 8,
+    "p": 8
+  },
+  "accounts": [
+    {
+      "address": "ASingLeneTRyh8UaPSAQTmNgBYTxY6ZM8N",
+      "label": null,
+      "isDefault": false,
+      "lock": false,
+      "key": "6PYRVnKkhzhqRiYC65F23U1MsAyzNgqMzK27FzGx4zWGQooZiMfzuzB7DN",
+      "contract": {
+        "script": "2103095ff60d979c810447f83ee93bc25dca4e22686b9722b5ac95d909fbc9c5b822ac",
+        "parameters": [
+          {
+            "name": "signature",
+            "type": "Signature"
+          }
+        ],
+        "deployed": false
+      },
+      "extra": null
+    },
+    {
+      "address": "AK6R3Lds2wxFRrzQ6A9xqEpD7ovDjdJqSX",
+      "label": null,
+      "isDefault": false,
+      "lock": false,
+      "key": "6PYRVnKkhzhqRiYC65F23U1MsAyzNgqMzK27FzGx4zWGQooZiMfzuzB7DN",
+      "contract": {
+        "script": "512103095ff60d979c810447f83ee93bc25dca4e22686b9722b5ac95d909fbc9c5b82251ae",
+        "parameters": [
+          {
+            "name": "parameter0",
+            "type": "Signature"
+          }
+        ],
+        "deployed": false
+      },
+      "extra": null
+    }
+  ],
+  "extra": null
+}

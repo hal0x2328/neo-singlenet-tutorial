@@ -1,0 +1,50 @@
+{
+  "ProtocolConfiguration": {
+    "Magic": 513,
+    "AddressVersion": 23,
+    "StandbyValidators": [
+      "03095ff60d979c810447f83ee93bc25dca4e22686b9722b5ac95d909fbc9c5b822"
+    ],
+    "SeedList": [
+      "127.0.0.1:30333"
+    ],
+    "RPCList": [
+      "http://127.0.0.1:30332"
+    ],
+    "SystemFee": {
+      "EnrollmentTransaction": 1000,
+      "IssueTransaction": 500,
+      "PublishTransaction": 500,
+      "RegisterTransaction": 10000
+    }
+  },
+  "ApplicationConfiguration": {
+    "RPCPort": 31332,
+    "NodePort": 31333,
+    "WsPort": 31334,
+    "UriPrefix": [
+      "http://*:31332"
+    ],
+    "SslCert": "",
+    "SslCertPassword": "",
+    "BootstrapFile": "",
+    "NotificationBootstrapFile": "",
+    "DebugStorage": 1,
+    "AcceptIncomingPeers": false,
+    "CompilerNep8": false,
+    "BootstrapName": "fauxnet",
+    "BootstrapFiles": "this_does_not_exist_for_this_network",
+    "Database": {
+        "Blockchain": {
+            "skip_version_check": false,
+            "DataDirectoryPath": "Chains/singlenet",
+            "backend": "neo.Storage.Implementation.LevelDB.LevelDBImpl.LevelDBImpl"},
+        "Notification": {
+            "NotificationDataPath": "Chains/singlenet_notif",
+            "backend": "neo.Storage.Implementation.LevelDB.LevelDBImpl.LevelDBImpl"},
+        "DebugStorage": {
+            "DebugStoragePath": "Chains/singlenet_debugstorage",
+            "backend": "neo.Storage.Implementation.LevelDB.LevelDBImpl.LevelDBImpl"}
+    }
+  }
+}

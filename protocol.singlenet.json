@@ -4,6 +4,9 @@
         "AddressVersion": 23,
         "SecondsPerBlock": 2,
         "LowPriorityThreshold": 0.001,
+        "StateRootEnableIndex": 0,
+        "FreeGasChangeHeight": 0,
+        "MinimumNetworkFee": 0,
         "StandbyValidators": [
             "03095ff60d979c810447f83ee93bc25dca4e22686b9722b5ac95d909fbc9c5b822",
         ],
